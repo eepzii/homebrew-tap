@@ -3,7 +3,7 @@ cask "paddock" do
   name "paddock"
   desc "Paddock is a fast, secure and cross-platform cli tool for automating F1 TV subscription token retrieval."
   homepage "https://github.com/eepzii/paddock"
-  version "0.2.1"
+  version "0.2.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "paddock" do
   on_macos do
     on_intel do
       url "https://github.com/eepzii/paddock/releases/download/v#{version}/paddock_Darwin_x86_64.tar.gz"
-      sha256 "81acfc38e1f4a6878f46c1400e1eed84590ff56dec7de45c45ed36abedcb772d"
+      sha256 "67871849263fb9c3b041dfa44e19239d808998b12915684b07ae7c27d604e54f"
     end
     on_arm do
       url "https://github.com/eepzii/paddock/releases/download/v#{version}/paddock_Darwin_arm64.tar.gz"
-      sha256 "c5495640285337de7484565961e9274aa8729aa2a2d71a28448057f07a505a28"
+      sha256 "6c8752a1ae1cc989e12849b1620bbd39386daab99e25ea58e376b3f39fd070d0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/eepzii/paddock/releases/download/v#{version}/paddock_Linux_x86_64.tar.gz"
-      sha256 "d23909eb55833ed42850dd8c984815cb5340bf323c0bbe61d5a338dcb949e2b7"
+      sha256 "3b537a3a38b6417a7c101a2cde1272abc40ede5c9e7600c64368f4b6de38f22d"
     end
     on_arm do
       url "https://github.com/eepzii/paddock/releases/download/v#{version}/paddock_Linux_arm64.tar.gz"
-      sha256 "2e28a9eaa0696e1f29867f11bcee4cd035dee4fa1cb201b8455246f5c2ba9358"
+      sha256 "357172c6fe38bfd4416415c7e31d33889bbcd47328a8919913b42dc523f4a4c8"
     end
   end
 
